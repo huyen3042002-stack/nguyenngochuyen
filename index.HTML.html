@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nguyễn Ngọc Huyền</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+    }
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #ffeef6;
+      color: #333;
+      line-height: 1.6;
+    }
+    header {
+      height: 100vh;
+      background: linear-gradient(rgba(255, 230, 240, 0.7), rgba(255, 230, 240, 0.7)), url('https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1500&q=80');
+      background-size: cover;
+      background-position: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      color: #444;
+      padding: 0 1rem;
+    }
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+      animation: fadeIn 2s ease;
+    }
+    header p {
+      font-size: 1.2rem;
+      animation: fadeIn 3s ease;
+    }
+    @keyframes fadeIn {
+      from {opacity: 0; transform: translateY(20px);}
+      to {opacity: 1; transform: translateY(0);}
+    }
+    section {
+      padding: 4rem 1rem;
+      max-width: 800px;
+      margin: auto;
+    }
+    h2 {
+      text-align: center;
+      color: #d96b94;
+      margin-bottom: 1.5rem;
+    }
+    ul {
+      list-style: none;
+      text-align: center;
+    }
+    ul li {
+      margin: 0.5rem 0;
+    }
+    .contact {
+      text-align: center;
+      background-color: #ffd6e8;
+      border-radius: 12px;
+      padding: 2rem;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+      background-color: #f9dce7;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Xin chào, tôi là Nguyễn Ngọc Huyền</h1>
+    <p>Sinh viên năm 3 Đại học Mở Hà Nội – Khoa Kinh tế – Ngành Quản trị kinh doanh</p>
+  </header>
+
+  <section id="about">
+    <h2>Giới thiệu bản thân</h2>
+    <p>Một sinh viên năng động, yêu thích quản trị, sáng tạo trong kinh doanh và luôn nỗ lực hoàn thiện bản thân mỗi ngày.</p>
+  </section>
+
+  <section id="education">
+    <h2>Học vấn</h2>
+    <ul>
+      <li><strong>Trường:</strong> Đại học Mở Hà Nội</li>
+      <li><strong>Khoa:</strong> Kinh tế</li>
+      <li><strong>Ngành:</strong> Quản trị kinh doanh</li>
+      <li><strong>Năm học:</strong> Năm 3</li>
+    </ul>
+  </section>
+
+  <section id="hobbies">
+    <h2>Sở thích</h2>
+    <ul>
+      <li>Nghe nhạc</li>
+      <li>Đi dạo</li>
+      <li>Xem phim</li>
+      <li>Học kỹ năng mới</li>
+    </ul>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Liên hệ</h2>
+    <p>📞 0978 xxx xxx</p>
+    <p>✉️ svkhoakinhte@email.com</p>
+    <p>📍 193 Vĩnh Hưng, Hà Nội</p>
+  </section>
+
+  <footer>
+    © 2025 Nguyễn Ngọc Huyền | Designed with 💗 pastel love
+  </footer>
+</body>
+</html>
